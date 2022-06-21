@@ -1,0 +1,11 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--standard);
+}
+
+.innerContainer {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+}

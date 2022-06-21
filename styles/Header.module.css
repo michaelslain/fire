@@ -1,0 +1,49 @@
+.container {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+    transform: translateX(20px);
+}
+
+.highlight0 .tab:nth-child(1) {
+    color: white;
+    font-weight: normal;
+}
+
+.highlight1 .tab:nth-child(2) {
+    color: white;
+    font-weight: normal;
+}
+
+.highlight2 .tab:nth-child(3) {
+    color: white;
+    font-weight: normal;
+}
+
+.highlight3 .tab:nth-child(4) {
+    color: white;
+    font-weight: normal;
+}
+
+.tabs {
+    display: flex;
+    gap: 6em;
+    align-items: center;
+}
+
+.tab {
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: opacity 0.1s ease-in;
+    font-size: 15px;
+}
+
+.tab:hover {
+    opacity: 0.8;
+}

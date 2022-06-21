@@ -1,0 +1,35 @@
+.container {
+    height: inherit;
+    transition: 0.3s ease-in-out;
+}
+
+.unmounted {
+    width: 0;
+}
+
+.mounted {
+    width: 50vw;
+}
+
+.innerContainer {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 10%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.text {
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+}
+
+.text:last-of-type {
+    color: var(--primary);
+}

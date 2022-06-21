@@ -1,0 +1,17 @@
+.text {
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.large {
+    font-size: 120px;
+}
+
+.medium {
+    font-size: 80px;
+}
+
+.small {
+    font-size: 30px;
+}
